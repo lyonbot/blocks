@@ -1,0 +1,23 @@
+.quickForm {
+  $label-width: 130px;
+
+  .quickFormRow {
+    position: relative;
+    padding-left: $label-width;
+
+    > label {
+      display: inline-block;
+      position: relative;
+      margin-left: -$label-width;
+      width: $label-width;
+      text-align: right;
+      padding-right: 10px;
+      box-sizing: border-box;
+    }
+
+    > input, > textarea {
+      padding: 5px 3px;
+      min-width: 300px;
+    }
+  }
+}

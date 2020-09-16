@@ -1,0 +1,27 @@
+{
+  "name": "@lyonbot/blocks",
+  "version": "1.0.0",
+  "description": "一些用来搭建 playground 的积木玩意儿",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lyonbot",
+  "license": "ISC",
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyonbot/blocks.git"
+  },
+  "devDependencies": {
+    "@lyonbot/base-cfg": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "monaco-editor": "*",
+    "js-yaml": "*",
+    "lodash": "*"
+  }
+}

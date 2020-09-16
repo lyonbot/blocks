@@ -1,0 +1,5 @@
+.x-monaco-editor {
+  border: 1px solid #999;
+  box-sizing: border-box;
+  min-height: 300px;
+}
